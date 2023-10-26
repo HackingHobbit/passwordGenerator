@@ -1,0 +1,127 @@
+.random-password {
+    color: #4adf86;
+  }
+  .heading,
+  .supporting-text {
+    position: absolute;
+    left: 52px;
+    display: inline-block;
+  }
+  .heading {
+    top: 115px;
+    font-size: 40px;
+    letter-spacing: -0.02em;
+    line-height: 40px;
+    font-weight: 800;
+    font-family: var(--font-karla);
+    width: 354px;
+    color: var(--white);
+  }
+  .supporting-text {
+    top: 205px;
+    font-size: var(--text-xl-leading-7-font-normal-size);
+    line-height: 28px;
+    color: var(--medium-grey);
+    width: 372px;
+  }
+  .text {
+    position: relative;
+    font-size: var(--text-base-leading-6-font-medium-size);
+    line-height: 24px;
+    font-weight: 500;
+    font-family: var(--text-base-leading-6-font-medium);
+    color: var(--white);
+    text-align: left;
+  }
+  .button,
+  .password1-child {
+    position: absolute;
+    border-radius: var(--br-7xs);
+  }
+  .button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-4xs) 17px var(--padding-4xs) 15px;
+    background-color: #10b981;
+    top: 284px;
+    left: calc(50% - 95px);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .password1-child {
+    top: 0;
+    left: 0;
+    background-color: var(--color-darkslategray-100);
+    width: 211px;
+    height: 39px;
+  }
+  .password11 {
+    margin: 0;
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    line-height: 32px;
+    font-weight: 500;
+    display: inline-block;
+    width: 180px;
+  }
+  .password1 {
+    position: absolute;
+    top: 396px;
+    left: 52px;
+    width: 211px;
+    height: 39px;
+    text-align: center;
+  }
+  .password21 {
+    margin: 0;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    line-height: 32px;
+    font-weight: 500;
+    display: inline-block;
+    width: 192px;
+  }
+  .password2 {
+    position: absolute;
+    top: 396px;
+    left: 287px;
+    width: 211px;
+    height: 39px;
+    text-align: center;
+  }
+  .password-dialog-child {
+    position: absolute;
+    top: 360.5px;
+    left: 51.5px;
+    border-top: 1px solid #2f3e53;
+    box-sizing: border-box;
+    width: 447px;
+    height: 1px;
+  }
+  .password-dialog {
+    position: absolute;
+    top: 64px;
+    left: calc(50% - 274.5px);
+    background-color: #1f2937;
+    width: 550px;
+    height: 550px;
+    overflow: hidden;
+  }
+  .scrimba-solo-project-random-p {
+    position: relative;
+    background-color: #1c1c1c;
+    width: 100%;
+    height: 1064px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--text-base-leading-6-font-medium-size);
+    color: var(--color-mediumspringgreen-100);
+    font-family: var(--text-base-leading-6-font-medium);
+  }
+  
